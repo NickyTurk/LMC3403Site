@@ -66,10 +66,6 @@
   .no-break {
       page-break-before: avoid
       }
-  div.chapter {
-      page-break-before: always;
-      margin-top: 4em
-      }
     .side-by-side {
         padding-bottom: 20px;
         float: left;
@@ -88,6 +84,8 @@
         flex: 1 1 auto;
     }
     .fill-width {
+        width: 500px;
+        height: 300px;
         background-image:url(personal-photo.jpg);
         background-size: 100% 100%;
         flex: 1 1 auto;
@@ -117,7 +115,7 @@
   <body>
     <div></div>
     <h1>Nicholas Turk</h1>
-    <section class="pg-header-heading" id="pg-header" lang="en" style="background-color: aqua;"><h2 id="pg-header-heading" title="Bio">Bio</h2>
+    <section class="pg-header-heading" id="pg-header" lang="en" style="background-color: lightgrey;"><h2 id="pg-header-heading" title="Bio">Bio</h2>
     </section>
     <div class="side-by-side" style="background-color: white;">
         <div class="left-box">
@@ -133,7 +131,7 @@
         </div>
         <div class="fill-width"></div>
     </div>
-    <section class="pg-header-heading" id="pg-header" lang="en" style="background-color: aqua;"><h2 id="pg-header-heading" title="Projects">Prior Work</h2>
+    <section class="pg-header-heading" id="pg-header" lang="en" style="background-color: lightgrey;"><h2 id="pg-header-heading" title="Projects">Prior Work</h2>
     </section>
     <div class="side-by-side" style="background-color: white;">
         <div class="small-box">
@@ -145,13 +143,29 @@
     </div>
     <div class="side-by-side" style="background-color: white;">
         <div class="small-box">
-            A literature review about the treatment of gender in computational linguistic studies. Representative of some of my research interests. Unpublished.
+            A study of the linguistic features associated with toxic language on social media. I was not primary programmer on this project, but all the text of the paper was written by me.
+        </div>
+        <div class = "right-box">
+            <p><a href="toxicity-classifier.pdf">Paper</a></p>
+        </div>
+    </div>
+    <div class="side-by-side" style="background-color: white;">
+        <div class="small-box">
+            A literature review about the treatment of gender in computational linguistic studies. Representative of some of my research interests.
         </div>
         <div class = "right-box">
             <p><a href="computational-gender.pdf">Paper</a></p>
         </div>
     </div>
-    <section class="pg-header-heading" id="pg-header" lang="en" style="background-color: aqua;"><h2 id="pg-header-heading" title="Job Materials">Job Materials</h2>
+    <div class="side-by-side" style="background-color: white;">
+        <div class="small-box">
+            A paper on Middle English orthography for one of my history classes at Georgia Tech.
+        </div>
+        <div class = "right-box">
+            <p><a href="middle-english-orthography.pdf">Paper</a></p>
+        </div>
+    </div>
+    <section class="pg-header-heading" id="pg-header" lang="en" style="background-color: lightgrey;"><h2 id="pg-header-heading" title="Job Materials">Job Materials</h2>
     </section>
     <div>
         <a href="resume.pdf">Resume</a>
